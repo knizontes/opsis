@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Opsis1.1</string>
+    <string name="FinalResultTitle">Identity</string>
+	
+	    
+	<string name="DescriptionTitle">Opsis</string>
+	<string name="buildDescription">Build face description file</string>
+	<string name="getDescription">Open face description file</string>
+	<string name="descriptionButton">Get Description</string>
+	
+	<string name="BuildDescriptionTitle">Identity</string>
+	<string name="BuildDescriptionFirstName">First Name:</string>	    
+	<string name="BuildDescriptionLastName">Last Name:</string>	    
+	<string name="BuildDescriptionBirthPlace">Birth Place:</string>	    
+	<string name="BuildDescriptionBirthDate">Birth Date:</string>	    
+	<string name="BuildDescriptionSex">Sex:</string>	    
+	<string name="BuildDescriptionHeight">Height:</string>	    
+	<string name="BuildDescriptionMunicipalityOfResidence">Municipality of residence:</string>	    
+	<string name="BuildDescriptionAddress">Address:</string>	    
+	<string name="BuildDescriptionNationality">Nationality:</string>	    
+	<string name="BuildDescriptionFiscalCode">Fiscal Code:</string>	    
+	<string name="BuildDescriptionValidityToTravel">Validity to travel:</string>	    
+	<string name="buildDescriptionSexMaleRadio">Male</string>
+	<string name="buildDescriptionSexFemaleRadio">Female</string>
+	<string name="buildDescriptionValidityToTravelValidRadio">Valid</string>
+	<string name="buildDescriptionValidityToTravelNotValidRadio">Not Valid</string>
+	<string name="buildDescriptionButton">Build Id-Card</string>
+	<string name="newPictureBuildDescriptionRadio">take a new picture</string>
+	<string name="databasePictureBuildDescriptionRadio">use a picture in the database</string>
+	
+	<string name="show_faceTitle">Face Detected</string>
+	<string name="show_faceText">You can accept the picture or take another one if you do not like it</string>
+	<string name="show_faceRejectButton">Reject</string>
+	<string name="show_faceAcceptButton">Accept</string>
+	
+	<string name="show_toTestFaceTitle">Face Detected</string>
+	<string name="show_toTestFaceText">You can accept the picture or take another one if you do not like it</string>
+	<string name="show_toTestFaceRejectButton">Reject</string>
+	<string name="show_toTestFaceAcceptButton">Accept</string>
+	
+	<string name="checkResponseTitle">Face Detected</string>
+	<string name="checkResponseText">You can accept the picture or take another one if you do not like it</string>
+	<string name="checkResponseRejectButton">Reject</string>
+	<string name="checkResponseAcceptButton">Accept</string>
+	
+	<string name="startTest">Start Test!</string>
+	<string name="outputView2">file to test</string>
+    <string name="showResult">Show Result</string>
+
+    
+	<string name="showIdCardTitle">Identity Card</string>
+	<string name="showIdCardFirstName">First name:</string>
+	<string name="showIdCardLastName">Last name:</string>
+	<string name="showIdCardBirthPlace">Born in:</string>
+	<string name="showIdCardBirthDate">the:</string>
+	<string name="showIdCardSex">Sex:</string>
+	<string name="showIdCardHeight">Height:</string>
+	<string name="showIdCardMunicipalityOfResidence">Municipality of residence:</string>
+	<string name="showIdCardSubMunicipalityOfResidence">Sub-municipality of residence:</string>
+	<string name="showIdCardAddress">Address:</string>
+	<string name="showIdCardIssuingDate">Issuing date:</string>
+	<string name="showIdCardExpirationDate">Expiration date:</string>
+	<string name="showIdCardNationality">Nationality:</string>
+	<string name="showIdCardFiscalCode">Fiscal code:</string>
+	<string name="showIdCardValidityToTravel">Validity to travel:</string>
+	<string name="showIdCardButtonsInstructions">You can verify the identity taking a picture or go back to the main menu</string>
+	<string name="showIdCardVerifyButton">Verify</string>
+	<string name="showIdCardBackButton">Back</string>
+	
+	<string name="showFrontalIdCardTitle">Id Card</string>
+	<string name="showFrontalIdCardAcceptButton">Accept</string>
+	<string name="showFrontalIdCardRejectButton">Reject</string>
+	
+	<string name="qrcode_progressButton">Shoot</string>
+	
+	<string name="wait_text">Please wait...</string>
+	    	
+    <string name="final_result">final result</string>
+        
+</resources>

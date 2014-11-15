@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/showToTestFaceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="@string/show_toTestFaceTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+    <ImageView
+        android:id="@+id/show_toTestFaceImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:src="@drawable/people" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:text="@string/show_toTestFaceText" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20" >
+
+        <Button
+            android:id="@+id/show_toTestFaceRejectImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:text="@string/show_toTestFaceRejectButton" />
+
+        <Button
+            android:id="@+id/show_toTestFaceAcceptImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
+            android:text="@string/show_toTestFaceAcceptButton" />
+
+    </LinearLayout>
+
+</LinearLayout>

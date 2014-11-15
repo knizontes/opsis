@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BuildDescriptionTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.31"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionFirstName" />
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             >
+            <requestFocus />
+        	</EditText>
+       
+        </LinearLayout>
+        
+            <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionLastName" />
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        	</EditText>
+       
+        </LinearLayout>
+        
+         <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionBirthPlace" />
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionBirthPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <requestFocus />
+        	</EditText>
+       
+        </LinearLayout>
+        
+             <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionBirthDate" />
+
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date">
+            <requestFocus />
+        	</EditText>
+       
+        </LinearLayout>
+        
+        
+            <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionSex" />
+             
+        	<RadioGroup
+        	android:id="@+id/buildDescriptionSexRadioGroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" >
+
+        	<RadioButton
+            android:id="@+id/buildDescriptionSexMaleRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/buildDescriptionSexMaleRadio" />
+
+        	<RadioButton
+            android:id="@+id/buildDescriptionSexFemaleRadio" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buildDescriptionSexFemaleRadio" />
+        
+    		</RadioGroup>
+       
+        </LinearLayout>
+ 
+        
+           <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionHeight" />
+
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:inputType="numberDecimal">
+            <requestFocus />
+        	</EditText>
+       
+        </LinearLayout>
+                            
+            <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionMunicipalityOfResidence" />
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionMunicipalityOfResidence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <requestFocus />
+        	</EditText>
+       
+        </LinearLayout>
+          
+        <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionAddress" />
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        	</EditText>        
+        </LinearLayout>
+                
+                <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionNationality" />
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionNationality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="Italiana">
+            <requestFocus />
+        	</EditText>        
+        </LinearLayout>
+        
+                <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionFiscalCode" />
+             
+        	<EditText
+            android:id="@+id/BuildDescriptionFiscalCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <requestFocus />
+        	</EditText>        
+        </LinearLayout>
+        
+           <LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content"
+        	android:layout_weight="0.31"
+       		android:orientation="horizontal" >
+
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BuildDescriptionValidityToTravel" />
+             
+        	<RadioGroup
+        	android:id="@+id/buildDescriptionValidityToTravelGroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" >
+
+        	<RadioButton
+            android:id="@+id/buildDescriptionValidityToTravelValidRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/buildDescriptionValidityToTravelValidRadio" />
+
+        	<RadioButton
+            android:id="@+id/buildDescriptionValidityToTravelNotValidRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buildDescriptionValidityToTravelNotValidRadio" />
+        
+    		</RadioGroup>
+       
+        </LinearLayout>
+        
+    
+                
+                
+                
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:orientation="vertical" >
+            
+      <RadioGroup
+        android:id="@+id/buildDescriptionRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/newPictureBuildDescriptionRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/newPictureBuildDescriptionRadio" />
+
+        <RadioButton
+            android:id="@+id/databasePictureBuildDescriptionRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/databasePictureBuildDescriptionRadio" />
+        
+    </RadioGroup>
+    </LinearLayout>
+        
+        
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.29"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buildDescriptionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.29"
+            android:text="@string/buildDescriptionButton" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.31"
+        android:orientation="vertical" >
+
+        
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
